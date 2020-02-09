@@ -1,0 +1,169 @@
+
+#title{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: cursive;
+}
+
+h3.desktop{
+    border: 2px solid black;
+    font-family: cursive;
+    background-color: rgb(46, 99, 245);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h3.tablet{
+    border: 2px solid black;
+    font-family: cursive;
+    background-color: rgb(252, 30, 30);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h3.mobile{
+    border: 2px solid black;
+    font-family: cursive;
+    background-color: rgb(198, 226, 43);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p.para{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+
+@media screen and (min-width:992px){
+
+.sec1{
+    width: 30%;
+    float: left;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: gray;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.sec2{
+    width: 30%;
+    float: left;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: gray;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.sec3{
+    width: 30%;
+    float: left;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: gray;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+}
+
+@media screen and (max-width:991px){
+    .sec1{
+        width: 45%;
+        float: left;
+        border: 2px solid black;
+        margin: 10px;
+        background-color: gray;
+        padding: 10px;
+        box-sizing: border-box;
+        position: relative;
+    
+    }
+    
+    .sec2{
+        width: 45%;
+        float: left;
+        border: 2px solid black;
+        margin: 10px;
+        background-color: gray;
+        padding: 10px;
+        box-sizing: border-box;
+        position: relative;
+    
+    }
+    
+    .sec3{
+        width: 92%;
+        float: left;
+        border: 2px solid black;
+        margin: 10px;
+        background-color: gray;
+        padding: 10px;
+        box-sizing: border-box;
+        position: relative;
+    
+    }
+    
+}
+
+@media screen and (max-width:767px){
+
+    .sec1{
+        width: 97%;
+        float: left;
+        border: 2px solid black;
+        margin: 10px;
+        background-color: gray;
+        padding: 10px;
+        box-sizing: border-box;
+        position: relative;
+    
+    }
+    
+    .sec2{
+        width: 97%;
+        float: left;
+        border: 2px solid black;
+        margin: 10px;
+        background-color: gray;
+        padding: 10px;
+        box-sizing: border-box;
+        position: relative;
+    
+    }
+    
+    .sec3{
+        width: 97%;
+        float: left;
+        border: 2px solid black;
+        margin: 10px;
+        background-color: gray;
+        padding: 10px;
+        box-sizing: border-box;
+        position: relative;
+    
+    }
+    
+}
