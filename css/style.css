@@ -17,6 +17,7 @@ h3.desktop{
     margin-top: 0;
     padding-left: 25px;
     padding-right: 25px;
+    font-size: 22px;
 }
 
 h3.tablet{
@@ -29,6 +30,7 @@ h3.tablet{
     margin-top: 0;
     padding-left: 25px;
     padding-right: 25px;
+    font-size: 22px;
 }
 
 h3.mobile{
@@ -41,10 +43,11 @@ h3.mobile{
     margin-top: 0;
     padding-left: 25px;
     padding-right: 25px;
+    font-size: 22px;
 }
 
 p.para{
-    font-size: 20px;
+    font-size: 17px;
     font-family: sans-serif;
     padding-top: 25px;
 }
